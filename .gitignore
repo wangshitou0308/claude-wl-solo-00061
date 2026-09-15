@@ -1,0 +1,35 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# JavaScript
+node_modules/
+.npm/
+.pnpm-store/
+coverage/
+*.tsbuildinfo
+
+# Generated builds and local data
+dist/
+build/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.eval-qa/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
